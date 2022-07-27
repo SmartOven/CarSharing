@@ -13,7 +13,7 @@ public class AppProperties {
     private static String dbName;
 
     static {
-        propertiesPath = "./CarSharing/src/main/resources/application.properties";
+        propertiesPath = "./src/main/resources/application.properties";
         properties = new Properties();
         try (Reader reader = new BufferedReader(new FileReader(propertiesPath))) {
             properties.load(reader);
