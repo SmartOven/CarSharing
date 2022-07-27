@@ -8,10 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Singleton
- * Working with COMPANY table
- */
 public class CompanyDao implements Dao<Company> {
     private static CompanyDao instance;
 

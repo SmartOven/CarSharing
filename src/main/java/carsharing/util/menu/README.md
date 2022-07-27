@@ -1,5 +1,6 @@
 # Menu architecture
 
+```
 MainMenu  |--> ManagerMenu          |--> CompanyChoosingMenu |--> CompanyActionsMenu |--> CreateCarMenu
           |                         |                        |                       |--> back to ManagerMenu
           |                         |                        |--> back to ManagerMenu
@@ -11,6 +12,7 @@ MainMenu  |--> ManagerMenu          |--> CompanyChoosingMenu |--> CompanyActions
           |                         |--> back to MainMenu
           |--> CreateCustomerMenu
           |--> exit
+```
 
 ## Usage
-See [Menu interface class]()
+See [Menu interface class](https://github.com/SmartOven/CarSharing/blob/main/src/main/java/carsharing/util/menu/Menu.java)
